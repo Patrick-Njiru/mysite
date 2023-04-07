@@ -20,3 +20,6 @@ class QuestionAdmin(admin.ModelAdmin):
     search_fields = ["question_text"]
 
 admin.site.register(Question, QuestionAdmin)
+
+# modify the header and title of the admin page.
+admin.AdminSite.site_header, admin.AdminSite.site_title = "Polls Administration", "Polls"
