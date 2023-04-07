@@ -1,0 +1,10 @@
+/* base.html */
+body {
+    background: white url(./images/background.jpeg) no-repeat;
+  background-size: 100% 50vh;
+}
+
+/* index.html */
+li.index {
+    list-style-type: none;
+}

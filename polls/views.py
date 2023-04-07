@@ -30,7 +30,7 @@ class DetailView(generic.DetailView):
 
 class ResultsView(generic.DetailView):
     model = Question
-    template_name = 'polls/detail.html'
+    template_name = 'polls/results.html'
     
 
 def vote(request, question_id):
